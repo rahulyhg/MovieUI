@@ -1,0 +1,524 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('Cinzel-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Hairline.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.ttf');
+    font-weight: 700;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+input,
+button,
+select,
+textarea {
+    font-family: 'Lato', cursive !important;
+}
+.bar .title {
+    font-family: 'Cinzel', cursive !important;
+    font-size:
+}
+.button-right button {
+    float: right;
+    min-height: 50px;
+    padding: 0 30px 0 15px;
+    border-radius: 0px;
+    width: auto;
+    -webkit-transform: skew(-20deg)translateX(20px);
+    z-index: 999;
+}
+.button-right button span {
+    -webkit-transform: skew(20deg);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-right button+button {
+    padding: 0px 15px;
+}
+.item {
+    padding: 0;
+    border: 0px;
+}
+.item .content {
+    padding: 5px 0;
+}
+.pane,
+.view {
+    background-color: #eee;
+}
+/*Buttons*/
+
+.button.button-dark {
+    border-color: #50b2e3;
+    background-color: #50b2e3;
+    color: #fff;
+}
+.button.button-dark:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.button.button-dark.active,
+.button.button-dark.activated {
+    border-color: #50b2e3;
+    background-color: #50b2e3;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.button.button-dark.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #50b2e3;
+}
+.button.button-dark.button-icon {
+    border-color: transparent;
+    background: none;
+}
+.button.button-dark.button-outline {
+    border-color: #50b2e3;
+    background: transparent;
+    color: #50b2e3;
+}
+.button.button-dark.button-outline.active,
+.button.button-dark.button-outline.activated {
+    background-color: #50b2e3;
+    box-shadow: none;
+    color: #fff;
+}
+.button.button-light {
+    border-color: #a0d5f0;
+    background-color: #a0d5f0;
+    color: #fff;
+}
+.button.button-light:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.button.button-light.active,
+.button.button-light.activated {
+    border-color: #a0d5f0;
+    background-color: #a0d5f0;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.button.button-light.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #a0d5f0;
+}
+.button.button-light.button-icon {
+    border-color: transparent;
+    background: none;
+}
+.button.button-light.button-outline {
+    border-color: #a0d5f0;
+    background: transparent;
+    color: #a0d5f0;
+}
+.button.button-light.button-outline.active,
+.button.button-light.button-outline.activated {
+    background-color: #a0d5f0;
+    box-shadow: none;
+    color: #fff;
+}
+.button.button-delete {
+    border-color: #fe7e7e;
+    background-color: #fe7e7e;
+    color: #fff;
+}
+.button.button-delete:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.button.button-delete.active,
+.button.button-delete.activated {
+    border-color: #fe7e7e;
+    background-color: #fe7e7e;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.button.button-delete.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #fe7e7e;
+}
+.button.button-delete.button-icon {
+    border-color: transparent;
+    background: none;
+}
+.button.button-delete.button-outline {
+    border-color: #fe7e7e;
+    background: transparent;
+    color: #fe7e7e;
+}
+.button.button-delete.button-outline.active,
+.button.button-delete.button-outline.activated {
+    background-color: #fe7e7e;
+    box-shadow: none;
+    color: #fff;
+}
+/*end*/
+
+.quote-list .item {
+    margin: 4px 0px 5px;
+    height: 50px;
+    overflow: hidden;
+    min-height: 50px;
+}
+.bar.bar-stable .title {
+    color: #071F21;
+    font-size: 20px;
+}
+.bar.bar-stable {
+    border: 0px;
+    background-color: #e5f4fb;
+    background-image: linear-gradient(0deg, #e5f4fb, #e5f4fb 50%, transparent 50%);
+    color: #50b2e3;
+}
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    color: #777;
+    font-weight: 400;
+}
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+    color: #333;
+    font-weight: 300;
+}
+.menu-content {
+    box-shadow: -2px 0px 1px rgba(194, 194, 194, 0.27), -1px 0px transparent;
+}
+.quote-list .item-avatar > img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 0px;
+}
+.button-img {
+    background: transparent;
+    border: 0px;
+    box-sizing: border-box;
+}
+.button-img:before {
+    content: "\f20e";
+    font-family: "Ionicons";
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    color: #50b2e3;
+}
+.middle-align {
+    vertical-align: middle;
+}
+button {
+    border-radius: 0px !important;
+}
+.logo img {
+    width: 85%;
+    margin: 30px auto;
+    display: block;
+}
+.button-fb,
+.button-tw,
+.button-google {
+    color: white;
+    width: 60%;
+    -webkit-transition: 300ms;
+}
+.button-fb {
+    background: #4364ab;
+    border-color: #4364ab;
+}
+.button-tw {
+    background: #28a9e2;
+    border-color: #28a9e2;
+}
+.button-google {
+    background: #df4a32;
+    border-color: #df4a32;
+}
+.button-fb:hover {
+    background: transparent;
+    border-color: #4364ab;
+    color: #4364ab;
+}
+.button-tw:hover {
+    background: transparent;
+    border-color: #28a9e2;
+    color: #28a9e2;
+}
+.button-google:hover {
+    background: transparent;
+    border-color: #df4a32;
+    color: #df4a32;
+}
+.login-btn {
+    text-align: center;
+    margin-top: 20%;
+}
+.btn-final {
+    text-align: center;
+    margin: 20px 0;
+}
+.button-bird {
+    position: relative;
+    margin-right: -10%;
+}
+.button-bird:before {
+    background: url(../img/bird-sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -50px;
+    width: 92px;
+    height: 80px;
+    top: -15px;
+    content: '';
+}
+.button-fb:before {
+    background-position-x: 0px;
+}
+.button-google:before {
+    background-position-x: -91px;
+}
+.button-tw:before {
+    background-position-x: -183px;
+}
+.login-btn .padding+.padding {
+    padding-top: 40px
+}
+.content h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.item.item-avatar.button-right {
+    padding-left: 55px;
+}
+.content select {
+    -webkit-appearance: none;
+    border: 0px;
+    background: transparent;
+    color: #777;
+    font-size: 16px;
+}
+.col.content {
+    padding: 5px 10px;
+    background: white;
+    height: 50px;
+}
+.content input {
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+    width: 50%;
+}
+.item.transparent {
+    background: transparent;
+}
+.col.content+.col.content {
+    margin-left: 3px;
+}
+.item .row {
+    padding: 0;
+}
+hr.blue {
+    background: #A0D5F0;
+    border: 0px;
+    height: 2px;
+}
+hr.grey {
+    background: #eee;
+    border: 0px;
+    height: 2px;
+}
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly]:not(.cloned-text-input),
+textarea[readonly]:not(.cloned-text-input),
+select[readonly] {
+    background-color: white;
+}
+.popup-body .item,
+.popup-body textarea {
+    background: transparent;
+}
+.blue-bg .item {
+    background: #E5F4FB;
+    padding: 10px 5px;
+    height: auto;
+    position: relative;
+    min-height: 79px;
+}
+.blue-bg .item.simple {
+    background: transparent;
+    padding: 0px;
+    min-height: 52px;
+}
+.blue-bg .item.simple button {
+    width: 60%;
+    margin: 2px 0px;
+}
+.in-item {
+    position: relative;
+    right: -7%;
+    width: 94%;
+}
+.num {
+    position: absolute;
+}
+.in-item+.in-item {
+    margin-top: 10px;
+}
+.in-col {
+    width: 21%;
+    overflow: hidden;
+    float: left;
+}
+.in-col+.in-col {
+    margin-left: 5px;
+}
+.content.description {
+    height: auto;
+}
+textarea {
+    resize: vertical;
+}
+.blue-bg .item+.item {
+    margin-top: 5px;
+}
+.list {
+    margin-bottom: 0px;
+    padding: 0;
+}
+.pic {
+    width: 67px;
+    min-width: 67px;
+    margin-right: 15px;
+    height: 67px;
+    overflow: hidden;
+}
+.bar-quote {
+    height: 85px;
+    position: relative;
+    padding: 10px 10px 0px 10px;
+    background: #E5F4FB;
+    overflow: hidden;
+    border-bottom-width: 2px;
+    border-color: #A0D5F0;
+}
+.pic img {
+    width: 100%;
+}
+.content h2 {
+    font-size: 16px;
+    margin: 0px;
+}
+.bar-quote .button-slant {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.bar-quote .content {
+    width: 100%;
+}
+.button-slant {
+    -webkit-transform: skew(-20deg)translateX(20px);
+    padding: 0px 25px !important;
+}
+.button-slant span {
+    -webkit-transform: skew(20deg);
+}
+.has-header2 {
+    top: 85px;
+}
+.has-header2 .quote-list .item {
+    margin: 0px 0px 5px;
+}
+.item.active,
+.item.activated,
+.item-complex.active .item-content,
+.item-complex.activated .item-content,
+.item .item-content.active,
+.item .item-content.activated {
+    background-color: #eee;
+}
+.bar-stable .button {
+    color: #50b2e3;
+}
+a.item-content {
+    color: #777;
+}
+.asterik {
+    color: red;
+}
+.profile-dec1{
+    height: 100%
+}
+p.profile-dec1_no {
+    font-size: 25px;
+}
+.bar-movie{
+    height:100%
+}
+.movie-name{
+    padding:20px;
+}
+@media screen and (max-width: 320px) {
+    .content input {
+        width: 40%;
+    }
+    .in-col {
+        width: 19%;
+    }
+}
+@media screen and (max-width: 315px) {
+    .content input {
+        width: 30%;
+    }
+    .in-col {
+        width: 17%;
+    }
+}
+@media screen and (max-width: 275px) {
+    .content input {
+        width: 26%;
+    }
+    .in-col {
+        width: 17%;
+    }
+}
